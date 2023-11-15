@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.example.entity.Employee;
 
-
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
     // データ呼び出し用のメソッドを定義します

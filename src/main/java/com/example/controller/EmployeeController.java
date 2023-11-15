@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.example.entity.Employee;
 import com.example.service.EmployeeService;
 
-
 @Controller
 @RequestMapping("employee")
 public class EmployeeController {
